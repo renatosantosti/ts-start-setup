@@ -52,3 +52,8 @@ A boilerplate for setup Typescript projects with: eslint, husky, lint-staged, pr
                                         moduleNameMapper: {
                                           "@/(.*)": "<rootDir>/src/$1",
                                         },
+  10.3 - yarn add -D tsconfig-paths
+  10.4 - Configur tsconfig-paths for script dev on package.json ->   "-r tsconfig-paths/register"
+  10.5 - yarn add -D tsc-alias
+  10.4 - Configur tsconfig-paths for script build on package.json ->   "&& tsc-alias"
+      
