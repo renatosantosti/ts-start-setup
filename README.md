@@ -33,6 +33,7 @@ A boilerplate for setup Typescript projects with: eslint, husky, lint-staged, pr
   8.2 - execute yarn husky:prepare
   8.3 - Configure .lintstagedrs.json
   8.4 - Create pre-commit -> npx husky add .husky/pre-commit "yarn lint-staged"
+  8.5 - set husk as executable -> chmod ug+x .husky/pre-commit
 9 - yarn add -D jest @types/jest ts-jest
   9.1 - Configure jest.config.js
   9.2 - Add script on package.json -> test: -> jest --passWithNoTests
