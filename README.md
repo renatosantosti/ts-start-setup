@@ -39,4 +39,4 @@ A boilerplate for setup Typescript projects with: eslint, husky, lint-staged, pr
   9.2 - Add script on package.json -> test:watch -> yarn test --watch
   9.3 - Add script on package.json -> test:staged -> yarn test --findRelatedTests
   9.4 - Add script on package.json -> test:push -> yarn test --converage
-  9.5 - execute npx husky add .husky/pre-push "yarn test:push"
+  9.5 - Create pre-push -> npx husky add .husky/pre-push "yarn test:push"
