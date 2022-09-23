@@ -59,5 +59,8 @@ A boilerplate for setup Typescript projects with: eslint, husky, lint-staged, pr
 11 - install and configure express
   11.1 - yarn add express
   11.1 - yarn add -D @types/express
+12 -  Configure conventional commits by git-commit-msg-linter
+  12.1 - yarn add -D git-commit-msg-linter
+  12.1 - execute npx husky add .husky/commit-msg ".git/hooks/commit-msg \$1" 
 
       
