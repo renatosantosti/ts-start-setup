@@ -42,3 +42,13 @@ A boilerplate for setup Typescript projects with: eslint, husky, lint-staged, pr
   9.4 - Add script on package.json -> test:push -> yarn test --converage
   9.5 - Create pre-push -> npx husky add .husky/pre-push "yarn test:push"
   9.6 - set husk as executable -> chmod ug+x .husky/pre-push
+10 - configure path mapper
+  10.1 - configure tsconfig->
+                                      "paths": {
+                                          "@/*": ["*"]
+                                        },
+                                        "baseUrl": "src"
+  10.2 - configure jest.config
+                                        moduleNameMapper: {
+                                          "@/(.*)": "<rootDir>/src/$1",
+                                        },
