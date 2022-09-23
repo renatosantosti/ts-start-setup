@@ -56,4 +56,8 @@ A boilerplate for setup Typescript projects with: eslint, husky, lint-staged, pr
   10.4 - Configur tsconfig-paths for script dev on package.json ->   "-r tsconfig-paths/register"
   10.5 - yarn add -D tsc-alias
   10.4 - Configur tsconfig-paths for script build on package.json ->   "&& tsc-alias"
+11 - install and configure express
+  11.1 - yarn add express
+  11.1 - yarn add -D @types/express
+
       
