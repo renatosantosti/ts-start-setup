@@ -4,6 +4,7 @@ A boilerplate for setup Typescript projects with: eslint, husky, lint-staged, pr
 
 ## Setup Steps
 
+```
 1 - git init
 1.1 - configure .gitignore
 2 - npm init -y
@@ -62,5 +63,4 @@ A boilerplate for setup Typescript projects with: eslint, husky, lint-staged, pr
 12 -  Configure conventional commits by git-commit-msg-linter
   12.1 - yarn add -D git-commit-msg-linter
   12.1 - execute npx husky add .husky/commit-msg ".git/hooks/commit-msg \$1" 
-
-      
+```      
