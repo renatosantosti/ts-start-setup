@@ -1,0 +1,6 @@
+{
+    "window.zoomLevel": 1,
+    "prettier.configPath": "./.prettierrc.json",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+}
